@@ -19,13 +19,13 @@ fi
 curl -sS https://raw.githubusercontent.com/magnu5/Whitelist/master/windows10-whitelist | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 echo -e " ${TICK} \e[32m Adding Magnu5's Windows10 domains to whitelist... \e[0m"
 sleep 0.1
-curl -sS https://github.com/magnu5/Whitelist/blob/master/xbox-whitelist-destiny-1.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+curl -sS https://raw.githubusercontent.com/magnu5/Whitelist/master/xbox-whitelist-destiny-1.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 echo -e " ${TICK} \e[32m Adding Magnu5's Destiny1 domains to whitelist... \e[0m"
 sleep 0.1
-curl -sS https://github.com/magnu5/Whitelist/blob/master/xbox-whitelist-destiny-2.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+curl -sS https://raw.githubusercontent.com/magnu5/Whitelist/master/xbox-whitelist-destiny-2.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 echo -e " ${TICK} \e[32m Adding Magnu5's Destiny2 domains to whitelist... \e[0m"
 sleep 0.1
-curl -sS https://github.com/magnu5/Whitelist/blob/master/xbox-whitelist.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+curl -sS https://raw.githubusercontent.com/magnu5/Whitelist/master/xbox-whitelist.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 echo -e " ${TICK} \e[32m Adding Magnu5's Xbox domains to whitelist... \e[0m"
 sleep 0.1
 curl -sS https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
