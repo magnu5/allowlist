@@ -68,7 +68,7 @@
 @@||api.iperceptions.com^
 @@||api.ipify.org^
 @@||api.rlje.net^
-@@||apina.biz
+@@||apina.biz^
 @@||apip.adobe.com^
 @@||app-api.ted.com^
 @@||app.adjust.com^
@@ -132,7 +132,7 @@
 @@||cert.mgt.xboxlive.com^
 @@||chat1-dal.mixer.com^
 @@||chatfd.xboxlive.com^
-@@||china-www.adobe.com^.edgekey.net^
+@@||china-www.adobe.com.edgekey.net^
 @@||chinacdn2ccmdl.adobe.com.edgesuite.net^
 @@||client-office365-tas.msedge.net^
 @@||client-s.gateway.messenger.live.com^
@@ -157,8 +157,8 @@
 @@||continuum.dds.microsoft.com^
 @@||cookie-script.com^
 @@||core-prod-lvs-ue.adobe-identity.com^
-@@||cpms.spop10.ams.plex.bz
-@@||cpms35.spop10.ams.plex.bz
+@@||cpms.spop10.ams.plex.bz^
+@@||cpms35.spop10.ams.plex.bz^
 @@||crlog-crcn.adobe.com^
 @@||cs12.wpc.v0cdn.net^
 @@||cse.google.com^
@@ -232,7 +232,7 @@
 @@||ets-prd1-ue1-coll-elb-122061436.us-east-1.elb.amazonaws.com^
 @@||eu1.ethermine.org^
 @@||evoke-windowsservices-tas.msedge.net^
-@@||extratorrent.cc
+@@||extratorrent.cc^
 @@||fdp-xboxone-ope-game.fromsoftware-game.net^
 @@||fdp-xboxone-ope-login.fromsoftware-game.net^
 @@||fe2.update.microsoft.com^
@@ -265,7 +265,7 @@
 @@||github.com^
 @@||github.io^
 @@||go.microsoft.com^
-@@||goo.gl
+@@||goo.gl^
 @@||googleapis.com^
 @@||googleapis.l.google.com^
 @@||gpla1.wac.v2cdn.net^
@@ -278,7 +278,7 @@
 @@||help.ui.xboxlive.com^
 @@||hls.ted.com^
 @@||hosts-file.net^
-@@||hostsfile.mine.nu
+@@||hostsfile.mine.nu^
 @@||hostsfile.org^
 @@||hwcdn.net^
 @@||i.s-microsoft.com^
@@ -341,7 +341,7 @@
 @@||mediahub.xboxlive.com^
 @@||mediaredirect.microsoft.com^
 @@||medium.com^
-@@||meta-db-worker02.pop.ric.plex.bz
+@@||meta-db-worker02.pop.ric.plex.bz^
 @@||meta.plex.bz^
 @@||meta.plex.tv^
 @@||microsoftonline.com^
@@ -352,7 +352,7 @@
 @@||mobile-collector.newrelic.com^
 @@||mobile.pipe.aria.microsoft.com^
 @@||mobileanalytics.us-east-1.amazonaws.com^
-@@||modern.watson.data.microsoft.com^.akadns.net^
+@@||modern.watson.data.microsoft.com.akadns.net^
 @@||msftncsi.com^
 @@||msftsrvcs.vo.llnwd.net^
 @@||msnbot-65-52-108-198.search.msn.com^
@@ -476,14 +476,12 @@
 @@||shop.rewe-static.de^
 @@||skyhook.sonarr.tv^
 @@||skypexbox.skype.com^
-@@||skypexbox.skype.com^
 @@||sls.update.microsoft.com^
-@@||sls.update.microsoft.com^.nsatc.net^
+@@||sls.update.microsoft.com.nsatc.net^
 @@||social.xboxlive.com^
 @@||socialize.eu1.gigya.com^
 @@||socket.bittrex.com^
 @@||someonewhocares.org^
-@@||spclient.wg.spotify.com^
 @@||spclient.wg.spotify.com^
 @@||ssl.adobe.com^
 @@||ssl.google-analytics.com^
@@ -528,7 +526,7 @@
 @@||tedcdn.com^
 @@||telecommand.telemetry.microsoft.com^
 @@||telecommand.telemetry.microsoft.com.akadns.net^
-@@||telegraaf.nl
+@@||telegraaf.nl^
 @@||themoviedb.com^
 @@||thetvdb.com^
 @@||thumbs.mixer.com^
@@ -539,7 +537,7 @@
 @@||titlehub.xboxlive.com^
 @@||titlestorage.xboxlive.com^
 @@||titlestoragecus0207.blob.core.windows.net^
-@@||tlu.dl.delivery.mp.microsoft.com^.c.footprint.net^
+@@||tlu.dl.delivery.mp.microsoft.com.c.footprint.net^
 @@||tn.com.ar^
 @@||tomshardware.com^
 @@||tournamentshub.xboxlive.com^
@@ -561,7 +559,7 @@
 @@||use.typekit.net^
 @@||user.auth.xboxlive.com^
 @@||userpresence.xboxlive.com^
-@@||users.telenet^.be
+@@||users.telenet.be^
 @@||userstats.xboxlive.com^
 @@||v.firebog.net^
 @@||v.shopify.com^
@@ -652,4 +650,4 @@
 @@||youtu.be^
 @@||youtube-nocookie.com^
 @@||yt3.ggpht.com^
-@@||zeustracker.abuse.ch
+@@||zeustracker.abuse.ch^
