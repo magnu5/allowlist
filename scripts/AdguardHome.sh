@@ -5,7 +5,7 @@
 # Created by Anudeep (Slight change by cminion) | Modified by Freekers
 #================================================================================
 TICK="[\e[32m ✔ \e[0m]"
-WHITELIST_LOCATION="/home/pi"
+WHITELIST_LOCATION="/home/magnus/git/whitelist-1"
 
 
 echo -e " \e[1m This script will download and add domains to your whitelist.txt, but You will have to add them yourself using the web interface. \e[0m"
@@ -29,6 +29,9 @@ echo -e " ${TICK} \e[32m Adding anudeepND's domains to whitelist... \e[0m"
 sleep 0.1
 curl -sS https://raw.githubusercontent.com/Freekers/whitelist/master/domains/whitelist.txt | tee -a "${WHITELIST_LOCATION}"/whitelist.txt >/dev/null
 echo -e " ${TICK} \e[32m Adding Freekers' domains to whitelist... \e[0m"
+sleep 0.1
+curl -sS https://raw.githubusercontent.com/magnu5/Whitelist/master/ikea.txt | tee -a "${WHITELIST_LOCATION}"/whitelist.txt >/dev/null
+echo -e " ${TICK} \e[32m Magnu5's IKEA domains to whitelist... \e[0m"
 sleep 0.1
 echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 mv "${WHITELIST_LOCATION}"/whitelist.txt "${WHITELIST_LOCATION}"/whitelist.txt.old && cat "${WHITELIST_LOCATION}"/whitelist.txt.old | sort | uniq >> "${WHITELIST_LOCATION}"/whitelist.txt
