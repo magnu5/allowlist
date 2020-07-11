@@ -34,6 +34,9 @@ sleep 0.1
 curl -sS https://raw.githubusercontent.com/Freekers/whitelist/master/domains/whitelist.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 echo -e " ${TICK} \e[32m Adding Freekers' domains to whitelist... \e[0m"
 sleep 0.1
+curl -sS https://raw.githubusercontent.com/magnu5/Whitelist/master/ikea.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+echo -e " ${TICK} \e[32m Magnu5's IKEA domains to whitelist... \e[0m"
+sleep 0.1
 echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.old && cat "${PIHOLE_LOCATION}"/whitelist.txt.old | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 
